@@ -8,14 +8,6 @@ import Footer from "../../components/footer";
 import SideBar from "../../components/sideBar";
 import MainBox from "../../components/mainBox";
 
-const Item = styled(Paper)(({ theme }) => ({
-  backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
-  ...theme.typography.body2,
-  padding: theme.spacing(1),
-  textAlign: "center",
-  color: theme.palette.text.secondary,
-}));
-
 export default function Home() {
   return (
     <>
@@ -24,10 +16,10 @@ export default function Home() {
           <Grid item xs={12}>
             <Header />
           </Grid>
-          <Grid item xs={9}>
+          <Grid item xs={10} md={9} lg={10}>
             <MainBox />
           </Grid>
-          <Grid item xs={3}>
+          <Grid item xs={2} md={3} lg={2}>
             <SideBar />
           </Grid>
           <Grid item xs={12}>
