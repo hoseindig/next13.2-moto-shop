@@ -2,6 +2,10 @@ import CarouselBox from "./carouselBox";
 
 import { Grid } from "@mui/material";
 import CategoryBoxImage from "./imagebox";
+import AllCartsCategories from "./all-parts-categories";
+import ShopAllPartsBrands from "./ShopAllPartsBrands";
+import FeaturedCategories from "./FEATURED-CATEGORIES";
+
 const MainBox = () => {
   return (
     <>
@@ -14,6 +18,9 @@ const MainBox = () => {
         </Grid>
       </Grid>
       <CategoryBoxImage />
+      <AllCartsCategories />
+      <ShopAllPartsBrands />
+      <FeaturedCategories />
     </>
   );
 };
