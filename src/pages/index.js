@@ -7,6 +7,7 @@ import Header from "../../components/header";
 import Footer from "../../components/footer";
 import SideBar from "../../components/sideBar";
 import MainBox from "../../components/mainBox";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 
 export default function Home() {
   return (

@@ -1,5 +1,12 @@
+import CarouselBox from "./carouselBox";
+
 const MainBox = () => {
-  return <>mainbox</>;
+  return (
+    <>
+      mainbox +++
+      <CarouselBox />
+    </>
+  );
 };
 
 export default MainBox;
