@@ -3,7 +3,12 @@ import { Carousel } from "react-responsive-carousel";
 // https://www.npmjs.com/package/react-responsive-carousel
 const carouselBox = () => {
   return (
-    <Carousel>
+    <Carousel
+      autoPlay={true}
+      infiniteLoop={true}
+      showArrows={true}
+      showThumbs={false}
+    >
       <div>
         <img src="images/bannner/1.png" />
         <p className="legend">Legend 1</p>
