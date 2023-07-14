@@ -17,8 +17,12 @@ const ComboxBox = ({ title = "", options = [], val = null }) => {
       >
         <option value="">{title}</option>
         {options &&
-          options.map((itm) => {
-            return <option value={itm.id}>{itm.title}</option>;
+          options.map((itm, i) => {
+            return (
+              <option key={itm.id + i} value={itm.id}>
+                {itm.title}
+              </option>
+            );
           })}
       </Form.Select>
     </Form>
