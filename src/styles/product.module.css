@@ -1,0 +1,28 @@
+.mainbox {
+  background-color: #ffffff;
+  /* text-align: center; */
+}
+
+.mainxboxDiv {
+  border: 1px solid #e3e2e2;
+  border-top: 3px solid #fa4c06;
+}
+
+.tabbox {
+  background-color: white;
+}
+
+.tabContent {
+
+  background-color: white;
+}
+
+/* */
+.header {
+  text-align: center;
+  font-weight: 700;
+}
+
+.tab {
+  background-color: #f4f4f4;
+}
