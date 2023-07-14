@@ -55,21 +55,24 @@ const Footer = () => {
       </div>
       <div className="footer__email-signup">
         <div className="footer-box-left">
-          <label class="footer__email-label footer__heading" for="email-input">
+          <label
+            className="footer__email-label footer__heading"
+            htmlFor="email-input"
+          >
             Subscribe to
             <br />
             The Inside Line
           </label>
           <br />
 
-          <span class="footer__signup-description">
+          <span className="footer__signup-description">
             Deals, New Releases &amp; Video Reviews
           </span>
         </div>
         <div className="footer-box-right">
           <input type="text" />
           <button
-            class="ui-button ui-button--large ui-button--black"
+            className="ui-button ui-button--large ui-button--black"
             type="submit"
           >
             Subscribe
