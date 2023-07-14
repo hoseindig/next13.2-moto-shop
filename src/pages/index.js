@@ -9,6 +9,7 @@ import SideBar from "../../components/sideBar";
 import MainBox from "../../components/mainBox";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import "bootstrap/dist/css/bootstrap.min.css";
+import "font-awesome/css/font-awesome.min.css";
 import { Container, Row, Col } from "react-bootstrap";
 
 export default function Home() {
