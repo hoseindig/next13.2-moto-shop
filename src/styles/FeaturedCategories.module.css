@@ -1,0 +1,9 @@
+.mainbox {
+  text-align: center;
+}
+.itsmBox {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
