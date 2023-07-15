@@ -1,3 +1,5 @@
+import styles from "../src/styles/Footer.module.scss";
+
 const Footer = () => {
   return (
     <>
@@ -79,7 +81,29 @@ const Footer = () => {
           </button>
         </div>
       </div>
-      <img src="images/footer-down.jpg" alt="" />
+
+      <div className={styles.contactbox}>
+        <div className={styles.topBox + " p-4"}>
+          <ul>
+            <li>Why US</li>
+            <li>About US</li>
+          </ul>
+          <ul>
+            <li>customer service</li>
+            <li>Contact US</li>
+          </ul>
+          <ul>
+            <li>Need Help</li>
+            <li>Contact US</li>
+          </ul>
+          <ul>
+            <li>888-888-888</li>
+            <li>Start Chat</li>
+            <li>Leveve Feedback</li>
+          </ul>
+        </div>
+      </div>
+      {/* <img src="images/footer-down.jpg" alt="" /> */}
     </>
   );
 };

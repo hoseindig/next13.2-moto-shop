@@ -14,23 +14,22 @@ import { Container, Row, Col } from "react-bootstrap";
 
 export default function Home() {
   return (
-    <Container className="mt-4">
-      <Row>
-        <Header />
-      </Row>
-      <Row className="mt-5">
-        <Col md={9}>
-          <MainBox />
-        </Col>
-        <Col md={3}>
+    <>
+      <Container className="mt-4">
+        <Row>
+          <Header />
+        </Row>
+        <Row className="mt-5">
+          <Col md={12}>
+            <MainBox />
+          </Col>
+          {/* <Col md={3}>
           <SideBar />
-        </Col>
-      </Row>
-      <Row>
-        {" "}
-        <Footer />
-      </Row>
-      {/* <Box sx={{ flexGrow: 1 }}>
+        </Col> */}
+        </Row>
+        {/* <Row> */} {/* <Footer /> */}
+        {/* </Row> */}
+        {/* <Box sx={{ flexGrow: 1 }}>
         <Grid container spacing={2}>
           <Grid item xs={12}>
             <Header />
@@ -46,6 +45,8 @@ export default function Home() {
           </Grid>
         </Grid>
       </Box> */}
-    </Container>
+      </Container>
+      <Footer />
+    </>
   );
 }
