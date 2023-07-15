@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import styles from "../src/styles/FeaturedCategories.module.css";
+import styles from "../src/styles/FeaturedCategories.module.scss";
 
 const images = [
   {
