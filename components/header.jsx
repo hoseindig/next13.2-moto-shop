@@ -12,9 +12,9 @@ function Header() {
       expand="lg"
       className="bg-body-tertiary"
       bg="dark"
-      variant="dark"
+      data-bs-theme="dark"
     >
-      <Container fluid>
+      <Container>
         <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">

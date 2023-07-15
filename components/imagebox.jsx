@@ -21,7 +21,6 @@ const CategoryBoxImage = () => {
           />
         </Col>
         <Col xs={6} md={6} lg={6} className={styles.imageBox}>
-          {" "}
           <img
             src="images/card-main-box/3.jpg"
             alt=""
