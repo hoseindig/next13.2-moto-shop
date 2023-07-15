@@ -1,0 +1,54 @@
+/* ImageSlider.module.css */
+.image-slider {
+  margin: 0 auto;
+  max-width: 800px; /* Increase the width as needed */
+  position: relative;
+}
+
+.image-slide {
+  padding: 10px;
+}
+
+.image-slide img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  /* border-radius: 50%; */
+}
+
+/* Add styles for the arrows */
+.slick-prev,
+.slick-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.slick-prev {
+  left: 10px;
+}
+
+.slick-next {
+  right: 10px;
+}
+
+/* Customize arrow icons (you can use your own icons or Unicode characters) */
+.slick-prev:before,
+.slick-next:before {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  content: "\2039"; /* Left arrow Unicode character */
+}
+
+.slick-next:before {
+  content: "\203A"; /* Right arrow Unicode character */
+}
