@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 // import { Grid } from "@mui/material";
 import CategoryBoxImage from "./imagebox";
-import AllCartsCategories from "./all-parts-categories";
+import AllPartsCategories from "./all-parts-categories";
 import ShopAllPartsBrands from "./ShopAllPartsBrands";
 import FeaturedCategories from "./FEATURED-CATEGORIES";
 import ProductsMainPageSearch from "./productSearch";
@@ -20,7 +20,7 @@ const MainBox = () => {
       <Row></Row>
 
       <CategoryBoxImage />
-      <AllCartsCategories />
+      <AllPartsCategories />
       <ShopAllPartsBrands />
       <FeaturedCategories />
     </>

@@ -1,0 +1,17 @@
+.partBox {
+  display: flex;
+
+  width: 100%;
+}
+.partBoxMain {
+  text-align: center;
+}
+
+.listBox {
+  text-align: left;
+}
+.listBoxItem {
+  text-align: left;
+  padding: 5px;
+  border-bottom: 1px solid rgb(201, 201, 201);
+}
