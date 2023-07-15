@@ -6,4 +6,10 @@
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
+  transition: 0.5s;
+  transform: scale(0.95);
+  &:hover {
+    cursor: pointer;
+    transform: scale(0.99);
+  }
 }
